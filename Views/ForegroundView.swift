@@ -6,12 +6,19 @@
 //
 import SwiftUI
 struct ForegroundView: View {
+    let gradientColor: [Color] = [
+        .gradientDarkBlue,
+        .gradientBottom,
+        .gradientTop
+    ]
     var body: some View {
         HStack {
             DayForecast(day: "Viernes", min: 20, max: 34, icon: "sun.max.fill", isSun: true)
             DayForecast(day: "Sabado", min: 20, max: 29, icon: "cloud.fill", isSun: false)
             DayForecast(day: "Domingo", min: 18, max: 25, icon: "cloud.rain.fill", isSun: false)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Gradient(colors: gradientColor))
     }
 }
 

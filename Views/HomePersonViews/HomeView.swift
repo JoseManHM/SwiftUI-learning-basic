@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct HomeView: View {
+    let gradientColors: [Color] = [
+        .gradientTop,
+        .gradientBottom
+    ]
     var body: some View {
         VStack {
             Text("Todo sobre")

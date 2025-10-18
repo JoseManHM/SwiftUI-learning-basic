@@ -50,6 +50,13 @@ struct ContentView: View {
                             .foregroundColor(Color.white)
                             .cornerRadius(10)
                     }
+                    NavigationLink(destination: DesignInterfaceView()) {
+                        Text("Ir a Design Interface")
+                            .padding()
+                            .background(Color.red)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
                 }
                 .padding()
             }
