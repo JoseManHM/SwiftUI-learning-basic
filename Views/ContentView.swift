@@ -57,6 +57,13 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     }
+                    NavigationLink(destination: LayingOutView()) {
+                        Text("Ir a LayingOut View")
+                            .padding()
+                            .background(Color.brown)
+                            .foregroundStyle(Color.white)
+                            .cornerRadius(10)
+                    }
                 }
                 .padding()
             }

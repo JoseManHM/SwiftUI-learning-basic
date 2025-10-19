@@ -10,6 +10,12 @@
 		5E509ED12EA4287F0041921F /* DesignInterfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509ED02EA428750041921F /* DesignInterfaceView.swift */; };
 		5E509ED62EA42BF00041921F /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509ED52EA42BF00041921F /* FeatureView.swift */; };
 		5E509ED82EA42E360041921F /* FeatureScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509ED72EA42E360041921F /* FeatureScreenView.swift */; };
+		5E509EDA2EA4595C0041921F /* LayingOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509ED92EA459550041921F /* LayingOutView.swift */; };
+		5E509EDD2EA45A000041921F /* ContainersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509EDC2EA459FB0041921F /* ContainersView.swift */; };
+		5E509EDF2EA45C0B0041921F /* SizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509EDE2EA45C070041921F /* SizeView.swift */; };
+		5E509EE12EA45EA30041921F /* SpaceAligmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509EE02EA45E9B0041921F /* SpaceAligmentView.swift */; };
+		5E509EE32EA463E10041921F /* DebuggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509EE22EA463DB0041921F /* DebuggingView.swift */; };
+		5E509EE52EA466850041921F /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E509EE42EA4667F0041921F /* MoodView.swift */; };
 		5ECC91862EA2C1D300E1CF87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECC91802EA2C1D300E1CF87 /* Assets.xcassets */; };
 		5ECC91872EA2C1D300E1CF87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC91812EA2C1D300E1CF87 /* ContentView.swift */; };
 		5ECC91882EA2C1D300E1CF87 /* LearningSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECC91832EA2C1D300E1CF87 /* LearningSwiftUIApp.swift */; };
@@ -25,6 +31,12 @@
 		5E509ED02EA428750041921F /* DesignInterfaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignInterfaceView.swift; sourceTree = "<group>"; };
 		5E509ED52EA42BF00041921F /* FeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 		5E509ED72EA42E360041921F /* FeatureScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureScreenView.swift; sourceTree = "<group>"; };
+		5E509ED92EA459550041921F /* LayingOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayingOutView.swift; sourceTree = "<group>"; };
+		5E509EDC2EA459FB0041921F /* ContainersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainersView.swift; sourceTree = "<group>"; };
+		5E509EDE2EA45C070041921F /* SizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeView.swift; sourceTree = "<group>"; };
+		5E509EE02EA45E9B0041921F /* SpaceAligmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceAligmentView.swift; sourceTree = "<group>"; };
+		5E509EE22EA463DB0041921F /* DebuggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingView.swift; sourceTree = "<group>"; };
+		5E509EE42EA4667F0041921F /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
 		5E7A63072EA2BC6F00553CAC /* LearningSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECC91802EA2C1D300E1CF87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ECC91812EA2C1D300E1CF87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +71,18 @@
 			path = DesignInterfaceViews;
 			sourceTree = "<group>";
 		};
+		5E509EDB2EA459E30041921F /* LayingOutViews */ = {
+			isa = PBXGroup;
+			children = (
+				5E509EE22EA463DB0041921F /* DebuggingView.swift */,
+				5E509EE42EA4667F0041921F /* MoodView.swift */,
+				5E509EE02EA45E9B0041921F /* SpaceAligmentView.swift */,
+				5E509EDE2EA45C070041921F /* SizeView.swift */,
+				5E509EDC2EA459FB0041921F /* ContainersView.swift */,
+			);
+			path = LayingOutViews;
+			sourceTree = "<group>";
+		};
 		5E7A62FE2EA2BC6F00553CAC = {
 			isa = PBXGroup;
 			children = (
@@ -88,9 +112,11 @@
 			isa = PBXGroup;
 			children = (
 				5ECC91812EA2C1D300E1CF87 /* ContentView.swift */,
-				5ECC918C2EA2E1C200E1CF87 /* HomePersonView.swift */,
 				5ECC918A2EA2D02F00E1CF87 /* ForegroundView.swift */,
+				5ECC918C2EA2E1C200E1CF87 /* HomePersonView.swift */,
 				5E509ED02EA428750041921F /* DesignInterfaceView.swift */,
+				5E509ED92EA459550041921F /* LayingOutView.swift */,
+				5E509EDB2EA459E30041921F /* LayingOutViews */,
 				5E509ED22EA42B3E0041921F /* DesignInterfaceViews */,
 				5ECC918F2EA2E3D600E1CF87 /* HomePersonViews */,
 			);
@@ -198,13 +224,19 @@
 				5E509ED82EA42E360041921F /* FeatureScreenView.swift in Sources */,
 				5ECC91962EA2E81000E1CF87 /* StoryView.swift in Sources */,
 				5E509ED62EA42BF00041921F /* FeatureView.swift in Sources */,
+				5E509EDF2EA45C0B0041921F /* SizeView.swift in Sources */,
 				5E509ED12EA4287F0041921F /* DesignInterfaceView.swift in Sources */,
+				5E509EE32EA463E10041921F /* DebuggingView.swift in Sources */,
 				5ECC918B2EA2D03900E1CF87 /* ForegroundView.swift in Sources */,
+				5E509EDA2EA4595C0041921F /* LayingOutView.swift in Sources */,
 				5ECC919A2EA2EC8F00E1CF87 /* FunFactsView.swift in Sources */,
+				5E509EE52EA466850041921F /* MoodView.swift in Sources */,
 				5ECC91872EA2C1D300E1CF87 /* ContentView.swift in Sources */,
 				5ECC91942EA2E78D00E1CF87 /* HomeView.swift in Sources */,
 				5ECC91982EA2E97000E1CF87 /* FavoritesView.swift in Sources */,
 				5ECC91882EA2C1D300E1CF87 /* LearningSwiftUIApp.swift in Sources */,
+				5E509EE12EA45EA30041921F /* SpaceAligmentView.swift in Sources */,
+				5E509EDD2EA45A000041921F /* ContainersView.swift in Sources */,
 				5ECC918D2EA2E1C800E1CF87 /* HomePersonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
